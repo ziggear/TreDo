@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8AA93930-4EBD-4421-B9A7-A31FD3BD622A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TreDo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FEC0153E-605E-4639-92EE-413916E1E511</key>
+		<string>ssh://bitbucket.org/ziggear/tredo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TreDo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FEC0153E-605E-4639-92EE-413916E1E511</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://bitbucket.org/ziggear/tredo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FEC0153E-605E-4639-92EE-413916E1E511</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FEC0153E-605E-4639-92EE-413916E1E511</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TreDo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

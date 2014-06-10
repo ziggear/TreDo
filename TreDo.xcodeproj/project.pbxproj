@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0745EE08193F6C56000DEA5B /* EGOImageLoadConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0745EE07193F6C56000DEA5B /* EGOImageLoadConnection.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		077D00A5193B26FE0078B51D /* AccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 077D00A4193B26FE0078B51D /* AccountManager.m */; };
+		077D00AE193B30C40078B51D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 077D00A9193B30C40078B51D /* MainViewController.m */; };
+		077D00AF193B30C40078B51D /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 077D00AA193B30C40078B51D /* MainViewController.xib */; };
+		077D00B0193B30C40078B51D /* UserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 077D00AC193B30C40078B51D /* UserInfoViewController.m */; };
+		077D00B1193B30C40078B51D /* UserInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 077D00AD193B30C40078B51D /* UserInfoViewController.xib */; };
+		077D00B7193B30FA0078B51D /* EGOCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 077D00B4193B30FA0078B51D /* EGOCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		077D00B8193B30FA0078B51D /* EGOImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 077D00B6193B30FA0078B51D /* EGOImageView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		077D00BB193B310D0078B51D /* EGOImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 077D00BA193B310D0078B51D /* EGOImageLoader.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		733242771938351500E7D45F /* NSString+LHURLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 733242761938351500E7D45F /* NSString+LHURLEncoding.m */; };
+		7332427D1938588E00E7D45F /* TrelloAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 7332427C1938588E00E7D45F /* TrelloAPI.m */; };
+		738EB58819333DAD0008337E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738EB58719333DAD0008337E /* Foundation.framework */; };
+		738EB58A19333DAD0008337E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738EB58919333DAD0008337E /* CoreGraphics.framework */; };
+		738EB58C19333DAD0008337E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738EB58B19333DAD0008337E /* UIKit.framework */; };
+		738EB59219333DAD0008337E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 738EB59019333DAD0008337E /* InfoPlist.strings */; };
+		738EB59419333DAD0008337E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 738EB59319333DAD0008337E /* main.m */; };
+		738EB59819333DAD0008337E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 738EB59719333DAD0008337E /* AppDelegate.m */; };
+		738EB59A19333DAD0008337E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 738EB59919333DAD0008337E /* Images.xcassets */; };
+		738EB5A119333DAE0008337E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738EB5A019333DAE0008337E /* XCTest.framework */; };
+		738EB5A219333DAE0008337E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738EB58719333DAD0008337E /* Foundation.framework */; };
+		738EB5A319333DAE0008337E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738EB58B19333DAD0008337E /* UIKit.framework */; };
+		738EB5AB19333DAE0008337E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 738EB5A919333DAE0008337E /* InfoPlist.strings */; };
+		738EB5AD19333DAE0008337E /* TreDoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 738EB5AC19333DAE0008337E /* TreDoTests.m */; };
+		738EB5CB193442420008337E /* TrelloOAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 738EB5CA193442420008337E /* TrelloOAuthViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		738EB5A419333DAE0008337E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 738EB57C19333DAD0008337E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 738EB58319333DAD0008337E;
+			remoteInfo = TreDo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0745EE06193F6C56000DEA5B /* EGOImageLoadConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageLoadConnection.h; sourceTree = "<group>"; };
+		0745EE07193F6C56000DEA5B /* EGOImageLoadConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageLoadConnection.m; sourceTree = "<group>"; };
+		077D00A3193B26FE0078B51D /* AccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountManager.h; sourceTree = "<group>"; };
+		077D00A4193B26FE0078B51D /* AccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountManager.m; sourceTree = "<group>"; };
+		077D00A8193B30C40078B51D /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		077D00A9193B30C40078B51D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		077D00AA193B30C40078B51D /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		077D00AB193B30C40078B51D /* UserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoViewController.h; sourceTree = "<group>"; };
+		077D00AC193B30C40078B51D /* UserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoViewController.m; sourceTree = "<group>"; };
+		077D00AD193B30C40078B51D /* UserInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserInfoViewController.xib; sourceTree = "<group>"; };
+		077D00B3193B30FA0078B51D /* EGOCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOCache.h; sourceTree = "<group>"; };
+		077D00B4193B30FA0078B51D /* EGOCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOCache.m; sourceTree = "<group>"; };
+		077D00B5193B30FA0078B51D /* EGOImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageView.h; sourceTree = "<group>"; };
+		077D00B6193B30FA0078B51D /* EGOImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageView.m; sourceTree = "<group>"; };
+		077D00B9193B310D0078B51D /* EGOImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageLoader.h; sourceTree = "<group>"; };
+		077D00BA193B310D0078B51D /* EGOImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageLoader.m; sourceTree = "<group>"; };
+		733242751938351500E7D45F /* NSString+LHURLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LHURLEncoding.h"; sourceTree = "<group>"; };
+		733242761938351500E7D45F /* NSString+LHURLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LHURLEncoding.m"; sourceTree = "<group>"; };
+		7332427B1938588E00E7D45F /* TrelloAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrelloAPI.h; sourceTree = "<group>"; };
+		7332427C1938588E00E7D45F /* TrelloAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrelloAPI.m; sourceTree = "<group>"; };
+		738EB58419333DAD0008337E /* TreDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TreDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		738EB58719333DAD0008337E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		738EB58919333DAD0008337E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		738EB58B19333DAD0008337E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		738EB58F19333DAD0008337E /* TreDo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TreDo-Info.plist"; sourceTree = "<group>"; };
+		738EB59119333DAD0008337E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		738EB59319333DAD0008337E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		738EB59519333DAD0008337E /* TreDo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TreDo-Prefix.pch"; sourceTree = "<group>"; };
+		738EB59619333DAD0008337E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		738EB59719333DAD0008337E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		738EB59919333DAD0008337E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		738EB59F19333DAE0008337E /* TreDoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TreDoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		738EB5A019333DAE0008337E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		738EB5A819333DAE0008337E /* TreDoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TreDoTests-Info.plist"; sourceTree = "<group>"; };
+		738EB5AA19333DAE0008337E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		738EB5AC19333DAE0008337E /* TreDoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreDoTests.m; sourceTree = "<group>"; };
+		738EB5C019333F280008337E /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		738EB5C9193442420008337E /* TrelloOAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrelloOAuthViewController.h; sourceTree = "<group>"; };
+		738EB5CA193442420008337E /* TrelloOAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrelloOAuthViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		738EB58119333DAD0008337E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				738EB58A19333DAD0008337E /* CoreGraphics.framework in Frameworks */,
+				738EB58C19333DAD0008337E /* UIKit.framework in Frameworks */,
+				738EB58819333DAD0008337E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		738EB59C19333DAE0008337E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				738EB5A119333DAE0008337E /* XCTest.framework in Frameworks */,
+				738EB5A319333DAE0008337E /* UIKit.framework in Frameworks */,
+				738EB5A219333DAE0008337E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		077D00A6193B30C40078B51D /* ThirdLibs */ = {
+			isa = PBXGroup;
+			children = (
+				077D00B2193B30FA0078B51D /* EGO */,
+			);
+			path = ThirdLibs;
+			sourceTree = "<group>";
+		};
+		077D00A7193B30C40078B51D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				077D00A8193B30C40078B51D /* MainViewController.h */,
+				077D00A9193B30C40078B51D /* MainViewController.m */,
+				077D00AA193B30C40078B51D /* MainViewController.xib */,
+				077D00AB193B30C40078B51D /* UserInfoViewController.h */,
+				077D00AC193B30C40078B51D /* UserInfoViewController.m */,
+				077D00AD193B30C40078B51D /* UserInfoViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		077D00B2193B30FA0078B51D /* EGO */ = {
+			isa = PBXGroup;
+			children = (
+				0745EE06193F6C56000DEA5B /* EGOImageLoadConnection.h */,
+				0745EE07193F6C56000DEA5B /* EGOImageLoadConnection.m */,
+				077D00B9193B310D0078B51D /* EGOImageLoader.h */,
+				077D00BA193B310D0078B51D /* EGOImageLoader.m */,
+				077D00B3193B30FA0078B51D /* EGOCache.h */,
+				077D00B4193B30FA0078B51D /* EGOCache.m */,
+				077D00B5193B30FA0078B51D /* EGOImageView.h */,
+				077D00B6193B30FA0078B51D /* EGOImageView.m */,
+			);
+			path = EGO;
+			sourceTree = "<group>";
+		};
+		738EB57B19333DAD0008337E = {
+			isa = PBXGroup;
+			children = (
+				738EB58D19333DAD0008337E /* TreDo */,
+				738EB5A619333DAE0008337E /* TreDoTests */,
+				738EB58619333DAD0008337E /* Frameworks */,
+				738EB58519333DAD0008337E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		738EB58519333DAD0008337E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				738EB58419333DAD0008337E /* TreDo.app */,
+				738EB59F19333DAE0008337E /* TreDoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		738EB58619333DAD0008337E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				738EB58719333DAD0008337E /* Foundation.framework */,
+				738EB58919333DAD0008337E /* CoreGraphics.framework */,
+				738EB58B19333DAD0008337E /* UIKit.framework */,
+				738EB5A019333DAE0008337E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		738EB58D19333DAD0008337E /* TreDo */ = {
+			isa = PBXGroup;
+			children = (
+				738EB5C019333F280008337E /* Config.h */,
+				7332427B1938588E00E7D45F /* TrelloAPI.h */,
+				7332427C1938588E00E7D45F /* TrelloAPI.m */,
+				077D00A3193B26FE0078B51D /* AccountManager.h */,
+				077D00A4193B26FE0078B51D /* AccountManager.m */,
+				738EB59619333DAD0008337E /* AppDelegate.h */,
+				738EB59719333DAD0008337E /* AppDelegate.m */,
+				077D00A7193B30C40078B51D /* ViewControllers */,
+				738EB5C8193440210008337E /* TrelloOAuth */,
+				077D00A6193B30C40078B51D /* ThirdLibs */,
+				738EB59919333DAD0008337E /* Images.xcassets */,
+				738EB58E19333DAD0008337E /* Supporting Files */,
+			);
+			path = TreDo;
+			sourceTree = "<group>";
+		};
+		738EB58E19333DAD0008337E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				738EB58F19333DAD0008337E /* TreDo-Info.plist */,
+				738EB59019333DAD0008337E /* InfoPlist.strings */,
+				738EB59319333DAD0008337E /* main.m */,
+				738EB59519333DAD0008337E /* TreDo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		738EB5A619333DAE0008337E /* TreDoTests */ = {
+			isa = PBXGroup;
+			children = (
+				738EB5AC19333DAE0008337E /* TreDoTests.m */,
+				738EB5A719333DAE0008337E /* Supporting Files */,
+			);
+			path = TreDoTests;
+			sourceTree = "<group>";
+		};
+		738EB5A719333DAE0008337E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				738EB5A819333DAE0008337E /* TreDoTests-Info.plist */,
+				738EB5A919333DAE0008337E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		738EB5C8193440210008337E /* TrelloOAuth */ = {
+			isa = PBXGroup;
+			children = (
+				738EB5C9193442420008337E /* TrelloOAuthViewController.h */,
+				738EB5CA193442420008337E /* TrelloOAuthViewController.m */,
+				733242751938351500E7D45F /* NSString+LHURLEncoding.h */,
+				733242761938351500E7D45F /* NSString+LHURLEncoding.m */,
+			);
+			path = TrelloOAuth;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		738EB58319333DAD0008337E /* TreDo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 738EB5B019333DAE0008337E /* Build configuration list for PBXNativeTarget "TreDo" */;
+			buildPhases = (
+				738EB58019333DAD0008337E /* Sources */,
+				738EB58119333DAD0008337E /* Frameworks */,
+				738EB58219333DAD0008337E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TreDo;
+			productName = TreDo;
+			productReference = 738EB58419333DAD0008337E /* TreDo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		738EB59E19333DAE0008337E /* TreDoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 738EB5B319333DAE0008337E /* Build configuration list for PBXNativeTarget "TreDoTests" */;
+			buildPhases = (
+				738EB59B19333DAE0008337E /* Sources */,
+				738EB59C19333DAE0008337E /* Frameworks */,
+				738EB59D19333DAE0008337E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				738EB5A519333DAE0008337E /* PBXTargetDependency */,
+			);
+			name = TreDoTests;
+			productName = TreDoTests;
+			productReference = 738EB59F19333DAE0008337E /* TreDoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		738EB57C19333DAD0008337E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ziggear;
+				TargetAttributes = {
+					738EB59E19333DAE0008337E = {
+						TestTargetID = 738EB58319333DAD0008337E;
+					};
+				};
+			};
+			buildConfigurationList = 738EB57F19333DAD0008337E /* Build configuration list for PBXProject "TreDo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 738EB57B19333DAD0008337E;
+			productRefGroup = 738EB58519333DAD0008337E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				738EB58319333DAD0008337E /* TreDo */,
+				738EB59E19333DAE0008337E /* TreDoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		738EB58219333DAD0008337E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				738EB59219333DAD0008337E /* InfoPlist.strings in Resources */,
+				077D00B1193B30C40078B51D /* UserInfoViewController.xib in Resources */,
+				077D00AF193B30C40078B51D /* MainViewController.xib in Resources */,
+				738EB59A19333DAD0008337E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		738EB59D19333DAE0008337E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				738EB5AB19333DAE0008337E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		738EB58019333DAD0008337E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				738EB59819333DAD0008337E /* AppDelegate.m in Sources */,
+				7332427D1938588E00E7D45F /* TrelloAPI.m in Sources */,
+				077D00B7193B30FA0078B51D /* EGOCache.m in Sources */,
+				077D00A5193B26FE0078B51D /* AccountManager.m in Sources */,
+				077D00BB193B310D0078B51D /* EGOImageLoader.m in Sources */,
+				0745EE08193F6C56000DEA5B /* EGOImageLoadConnection.m in Sources */,
+				738EB5CB193442420008337E /* TrelloOAuthViewController.m in Sources */,
+				077D00AE193B30C40078B51D /* MainViewController.m in Sources */,
+				077D00B0193B30C40078B51D /* UserInfoViewController.m in Sources */,
+				733242771938351500E7D45F /* NSString+LHURLEncoding.m in Sources */,
+				077D00B8193B30FA0078B51D /* EGOImageView.m in Sources */,
+				738EB59419333DAD0008337E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		738EB59B19333DAE0008337E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				738EB5AD19333DAE0008337E /* TreDoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		738EB5A519333DAE0008337E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 738EB58319333DAD0008337E /* TreDo */;
+			targetProxy = 738EB5A419333DAE0008337E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		738EB59019333DAD0008337E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				738EB59119333DAD0008337E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		738EB5A919333DAE0008337E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				738EB5AA19333DAE0008337E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		738EB5AE19333DAE0008337E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		738EB5AF19333DAE0008337E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		738EB5B119333DAE0008337E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TreDo/TreDo-Prefix.pch";
+				INFOPLIST_FILE = "TreDo/TreDo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		738EB5B219333DAE0008337E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TreDo/TreDo-Prefix.pch";
+				INFOPLIST_FILE = "TreDo/TreDo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		738EB5B419333DAE0008337E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TreDo.app/TreDo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TreDo/TreDo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TreDoTests/TreDoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		738EB5B519333DAE0008337E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TreDo.app/TreDo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TreDo/TreDo-Prefix.pch";
+				INFOPLIST_FILE = "TreDoTests/TreDoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		738EB57F19333DAD0008337E /* Build configuration list for PBXProject "TreDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				738EB5AE19333DAE0008337E /* Debug */,
+				738EB5AF19333DAE0008337E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		738EB5B019333DAE0008337E /* Build configuration list for PBXNativeTarget "TreDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				738EB5B119333DAE0008337E /* Debug */,
+				738EB5B219333DAE0008337E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		738EB5B319333DAE0008337E /* Build configuration list for PBXNativeTarget "TreDoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				738EB5B419333DAE0008337E /* Debug */,
+				738EB5B519333DAE0008337E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 738EB57C19333DAD0008337E /* Project object */;
+}
